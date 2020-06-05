@@ -10,6 +10,14 @@ body {
   background-color: white;
 }
 
-/* #C {
+#C {
   display: none;
-} */
+}
+
+#JavaScript {
+  display: none;
+}
+
+#Python {
+  display: none;
+}
