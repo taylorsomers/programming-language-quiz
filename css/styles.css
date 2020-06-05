@@ -2,6 +2,11 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+img {
+  width: 125%;
+  float: right;
+}
+
 .jumbotron {
   background-color: white;
 }
