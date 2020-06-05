@@ -17,23 +17,23 @@ $(document).ready(function() {
     } else if (question2 != "ketchup-no" || question4 != "other" || question6 === "hate") {
       $("#c").hide();
       $("#javascript").hide();
-      $("#no").show();
       $("#python").hide();
+      $("#no").fadeIn();
     } else if (((question1 === "back-end") && ((question3 === "procedural") || (question5 === "science"))) || ((question3 === "procedural") && (question5 === "science"))) {
       $("#c").hide();
       $("#javascript").hide();
       $("#no").hide();
-      $("#python").show();
+      $("#python").fadeIn();
     } else if (question7 === "games") {
-      $("#c").show();
       $("#javascript").hide();
       $("#no").hide();
       $("#python").hide();
+      $("#c").fadeIn();
     } else {
       $("#c").hide();
-      $("#javascript").show();
       $("#no").hide();
       $("#python").hide();
+      $("#javascript").fadeIn();
     }
 
   event.preventDefault();
