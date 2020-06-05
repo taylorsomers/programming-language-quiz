@@ -1,0 +1,15 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+.well {
+  background-color: white;
+}
+
+/* #C {
+  display: none;
+} */
