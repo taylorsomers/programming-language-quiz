@@ -14,11 +14,21 @@ $(document).ready(function() {
       $("#javascript").hide();
       $("#no").show();
       $("#python").hide();
-    } else {
+    } else if (((question1 === "back-end") && ((question3 === "procedural") || (question5 === "science"))) || ((question3 === "procedural") && (question5 === "science"))) {
       $("#c").hide();
+      $("#javascript").hide();
+      $("#no").hide();
+      $("#python").show();
+    } else if (question7 === "games") {
+      $("#c").show();
+      $("#javascript").hide();
       $("#no").hide();
       $("#python").hide();
+    } else {
+      $("#c").hide();
       $("#javascript").show();
+      $("#no").hide();
+      $("#python").hide();
     }
 
   event.preventDefault();
