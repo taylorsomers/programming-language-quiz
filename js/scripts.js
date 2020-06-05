@@ -8,7 +8,12 @@ $(document).ready(function() {
     const question6 = $("select#question6").val();
     const question7 = $("select#question7").val();
 
-    if (question1 === "null" || question2 === "null" || question3 === "null" || question4 === "null" || question5 === "null" || question6 === "null" || question7 === "null") { alert("Please answer all the questions. Seriously, it's not that long of a quiz.");
+    if (question1 === "null" || question2 === "null" || question3 === "null" || question4 === "null" || question5 === "null" || question6 === "null" || question7 === "null") { 
+      $("#c").hide();
+      $("#javascript").hide();
+      $("#no").hide();
+      $("python").hide();
+      alert("Please answer all the questions. Seriously, it's not that long of a quiz.");
     } else if (question2 != "ketchup-no" || question4 != "other" || question6 === "hate") {
       $("#c").hide();
       $("#javascript").hide();
