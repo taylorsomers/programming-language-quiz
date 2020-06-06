@@ -27,7 +27,7 @@ A website showcasing the skills I have cultivated in Bootstrap, CSS, HTML, JavaS
 ## Installation
 
   1. Download a web browser, such as Apple Safari, Google Chrome, Microsoft Edge, Mozilla Firefox, or Yandex.
-  2. Navigate to https://github.com/taylorsomers/peek-a-boo.
+  2. Navigate to https://github.com/taylorsomers/programming-language-quiz.
   3. Click the green "Clone or download" button at the right of the screen.
   4. Select "Download ZIP."
   5. Use a file extractor or unzip program (such as PeaZip, Unzipper, WinZip, Zipware, or 7-ZIP) to extract the ZIP files onto your computer.
